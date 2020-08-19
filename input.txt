@@ -1,0 +1,10 @@
+V: S, A, B, C, D, E
+Σ: a, b
+S: S
+R:
+S - Aa | bSB | bE
+A - BA | ES | bE
+B - abD | bB
+C - BA | bC
+D - DB | aD
+E - AS | b

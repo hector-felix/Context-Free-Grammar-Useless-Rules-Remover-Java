@@ -1,0 +1,82 @@
+V: S, A, B, C
+Σ: a, b
+S: S
+R:
+S - aS | A | C
+A - a
+B - aa
+C - aCb
+
+V: S, A, B
+Σ: a, b, 0
+S: S
+R:
+S - aS | AB | 0
+A - bA
+B - a
+
+V: S, A, B, C
+Σ: a, b, c, d
+S: S
+R:
+S - aaB | abA | aaS
+A - aA
+B - ab | b
+C - ad
+
+S — aS | AB | CD | C
+A — bA
+B — aC
+C - cc | D
+D - Ab | c
+
+V: S, A, B, D, E
+Σ: a, b, c, d
+S: S
+R:
+S - aA | bB
+A - aA | a
+B - bB
+D - ab | Ea
+E - ac | d
+
+V: S, A, C, E, D
+Σ: a, b, c, d
+S: S
+R:
+S - aAaC
+A - Sb | bCC | DaA
+C - abb | DD
+E - aC
+D - ada
+
+V: S, A, B, C
+Σ: a, b, c
+S: S
+R:
+S - aA | bC
+A - aSA | bAC
+B - ABc | bSC | b
+C - aAC | bc
+
+V: S, A, B, C, D, E
+Σ: a, b
+S: S
+R:
+S - Aa | bSB | bE
+A - BA | ES | bE
+B - abD | bB
+C - BA | bC
+D - DB | aD
+E - AS | b
+
+V: S, A, B, C, D, E
+Σ: a, b, c, d, e
+S: S
+R:
+S - ABa |BC
+A - AC | Bee | a
+B - bcc
+C - CA
+D - E
+E - e
